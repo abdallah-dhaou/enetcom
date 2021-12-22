@@ -4,8 +4,8 @@
 2. Check client version.
 3. Check server version.
 4. Download busybox image on your machine (just DOWNLOAD).
-5. Launch a container based on "ubuntu/apache2" image, expose it on your local port 8005.
-6. Launch a container based on nginx, run it in detached mode, publich its port to your physical port 8006, name it "my-ng-con".
+5. Launch a container based on "ubuntu/apache2" image, publish it on your local port 8005.
+6. Launch a container based on nginx with the tag "1.20.2-alpine", run it in detached mode, publish its port to your physical port 8006, name it "my-ng-con".
 7. Launch a container based on nginx:1:17, It is not going to work! Why ?
 8. Run the following command: (It is not goign to run, fix it )
 ```bash
